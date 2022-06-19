@@ -10,7 +10,7 @@ import { errorHandler } from "./middlewares/errorHandler.middleware";
 require("express-async-errors");
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 4001;
 app.set("port", port);
 
 // connect to mongodb
