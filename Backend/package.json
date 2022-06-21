@@ -6,6 +6,7 @@
   "keywords": [],
   "author": "Habeeb",
   "license": "ISC",
+  "type": "module",
   "scripts": {
     "start": "node server/dist/index.js",
     "clean": "rm -rf server/dist/ && mkdir server/dist/",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "@babel/node": "^7.16.8",
     "babel-preset-env": "^1.7.0",
     "nodemon": "^2.0.15"
   }

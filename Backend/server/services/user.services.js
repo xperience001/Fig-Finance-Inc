@@ -3,7 +3,10 @@ import User from "../model/user.model";
 import { hashPassword } from "../helpers/encrypt";
 import { verifyPassword } from "./../helpers/encrypt";
 
-require("dotenv").config();
+// require("dotenv").config();
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export async function createUser(input, res) {
   try {
